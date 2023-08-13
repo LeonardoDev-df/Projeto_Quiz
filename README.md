@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+# Quiz App em React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto simples de um Quiz App desenvolvido em React. Ele permite aos jogadores responderem a perguntas de conhecimentos gerais e ver sua pontuação final no final do quiz.
 
-## Available Scripts
+## Pré-requisitos
 
-In the project directory, you can run:
+- Node.js e npm instalados em seu ambiente.
 
-### `npm start`
+## Passo a Passo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. **Clone o Repositório**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+   Comece clonando este repositório em sua máquina local:
 
-### `npm test`
+git clone https://github.com/seu-usuario/quiz-app-react.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Instale as Dependências**
 
-### `npm run build`
+Navegue para o diretório do projeto e instale as dependências:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cd quiz-app-react
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Execute o Projeto**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Inicie o servidor de desenvolvimento para executar o projeto:
 
-### `npm run eject`
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Isso abrirá o aplicativo em seu navegador padrão. Qualquer alteração que você fizer nos arquivos será refletida automaticamente no navegador.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Personalize o Quiz**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Abra o arquivo `src/QuizPage.tsx` e siga os comentários no código para personalizar o título do quiz, as perguntas e as respostas.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+5. **Estilize o Aplicativo**
 
-## Learn More
+Se desejar, você pode personalizar o estilo do aplicativo. Os estilos estão definidos no arquivo `src/QuizPage.css`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. **Adicione Mais Perguntas**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para adicionar mais perguntas, basta seguir o formato das perguntas existentes no array `questions` do arquivo `src/QuizPage.tsx`.
+
+7. **Hospede o Projeto no GitHub**
+
+Após fazer as personalizações desejadas, você pode hospedar o projeto no GitHub:
+
+- Crie um novo repositório no GitHub.
+- Siga as instruções para adicionar um repositório remoto e fazer o push do seu código.
+
+8. **Atualize o README**
+
+Atualize o README do repositório com informações sobre o projeto, instruções de uso e personalização.
+
+## Contribuições
+
+Sinta-se à vontade para contribuir com melhorias neste projeto. Basta criar um fork, fazer suas modificações e enviar um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
