@@ -2,6 +2,11 @@
 
 Este é um projeto simples de um Quiz App desenvolvido em React. Ele permite aos jogadores responderem a perguntas de conhecimentos gerais e ver sua pontuação final no final do quiz.
 
+
+https://github.com/LeonardoDev-df/Projeto_Quiz/assets/69646199/a7bf8399-ad25-4542-a479-78cac48cfe8d
+
+
+
 ## Pré-requisitos
 
 - Node.js e npm instalados em seu ambiente.
