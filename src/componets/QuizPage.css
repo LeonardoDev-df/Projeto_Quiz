@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=YourChosenFont&display=swap');
+
+/* Estilos para o contêiner da página do quiz */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  li{
+    list-style-type: none;
+    padding: 10px;
+    font-family: 'YourChosenFont', sans-serif;
+
+    font-size: 10px;
+  }
+
+  
+
+  .questio{
+    font-size: 29px;
+    font-family: 'YourChosenFont', sans-serif;
+
+  }
+
+  h2{
+    font-size: 15px;
+  }
+
+  .quest-button{
+    width: 28vh;
+    border-radius: 8px;
+    font-family: 'YourChosenFont', sans-serif;
+
+  }  
+  /* Estilos para o wrapper do conteúdo */
+  .quiz-wrapper {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.532);
+    padding: 50px;
+    width: 120%; /* Aumentar um pouco a largura do conteúdo */
+    max-width: 1000px; /* Defina a largura máxima do conteúdo */
+  }
+  
+  /* Estilos para o título */
+  .quiz-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para as perguntas */
+  .question {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: left; /* Alinhar as perguntas à esquerda */
+    font-family: 'YourChosenFont', sans-serif;
+
+  }
+  
+/* Estilos para as opções de resposta */
+.option {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'YourChosenFont', sans-serif;
+
+  }
+  
+  .option.correct {
+    background-color: #8bc34a; /* Verde para resposta correta */
+    border-color: #8bc34a;
+    color: #fff;
+  }
+  
+  .option.incorrect {
+    background-color: #f27623e8; /* Vermelho para resposta incorreta */
+    border-color: #f27623e8;
+    color: #fff;
+  }
+  
+  /* Estilos para o botão de resposta */
+  .next-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .next-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Estilos para a área de resultado */
+  .result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .result.correct {
+    color: #8bc34a; /* Verde para resposta correta */
+  }
+  
+  .result.incorrect {
+    color:#f27623e8;/* Vermelho para resposta incorreta */
+  }
+  /* Estilos para a área de resultado */
+.result-area {
+    margin-top: 20px;
+    font-size: 24px; /* Aumentar o tamanho da fonte da área de resultado */
+  }
+
+  .quest-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .correct {
+    background-color: #15a01a !important;
+    color: #ffffff;
+  }
+  
+  .incorrect {
+    background-color: #f27623e8 !important;
+    color: #ffffff;
+  }
+  
+  .result {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  

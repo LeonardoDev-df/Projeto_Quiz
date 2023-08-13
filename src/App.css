@@ -1,0 +1,91 @@
+/* Reset de margem e padding para o body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* fonts.css */
+@import url('https://fonts.googleapis.com/css2?family=YourChosenFont&display=swap');
+
+/* Estilos para centralizar e estilizar o conteúdo */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  background-color: #f0f0f0;
+  font-family: 'YourChosenFont', sans-serif;
+}
+
+/* Estilos para o header */
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Alinha verticalmente no centro */
+  align-items: center; /* Alinha horizontalmente no centro */
+  background-color: #3498db;
+  justify-content: center;
+  font-size: 35px;
+  color: #ffffffdb;
+  font-family: 'YourChosenFont', sans-serif;
+  padding: 10px 0;
+  min-height: 12vh;
+ 
+}
+
+/* Estilos para o header */
+.header-quiz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Alinha verticalmente no centro */
+  align-items: center; /* Alinha horizontalmente no centro */
+  background-color: #1962d7ba;
+  border-radius: 8px;
+  justify-content: center;
+  font-size: 15px;
+  color: #ffffffb0;
+  padding: 10px 0;
+  font-family: 'YourChosenFont', sans-serif;
+  min-height: 12vh;
+ 
+}
+
+/* Estilos para o footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Alinha verticalmente no centro */
+  align-items: center; /* Alinha horizontalmente no centro */
+  background-color: black;
+  color: #ffffff73;
+  font-size: 25px;
+  font-family: 'YourChosenFont', sans-serif;
+  padding: 10px 0;
+  min-height: 13.9vh;
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+h2{
+  font-size: 25px;
+  font-family: 'YourChosenFont', sans-serif;
+}
+.quiz-wrapper {
+  text-align: center;
+  padding: 60px;
+  background-color: #fff;
+  font-family: 'YourChosenFont', sans-serif;
+  border-radius: 8px;
+  border: solid;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-color: rgba(128, 128, 128, 0.37);
+  width: 110%; /* Aumentar um pouco a largura do conteúdo */
+  max-width: 900px; /* Defina a largura máxima do conteúdo */
+}
+
+/* Estilos responsivos para telas menores */
+@media (max-width: 768px) {
+  .quiz-wrapper {
+    padding: 10px;
+  }
+}
+

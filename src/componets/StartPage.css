@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=YourChosenFont&display=swap');
+/* Estilos para o contêiner da página inicial */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background-color: #f0f0f0;
+  }
+
+  .organize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+    border-radius: 18px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+
+  input{
+    min-height: 4vh;
+    width: 23vh;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'YourChosenFont', sans-serif;
+  }
+  
+  button{
+    min-height: 4vh;
+    width: 18vh;
+    font-size: 17px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'YourChosenFont', sans-serif;
+  }
+  
+  /* Estilos para o wrapper do conteúdo */
+  .quiz-wrapper {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    width: 110%; /* Aumentar um pouco a largura do conteúdo */
+    max-width: 900px; /* Defina a largura máxima do conteúdo */
+  }
+  
+  /* Estilos para o título */
+  .quiz-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para o campo de entrada */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para o botão */
+  .start-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .start-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
